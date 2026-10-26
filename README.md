@@ -24,6 +24,9 @@ Install the Val Town plugin by running:
 claude plugin install valtown@claude-plugins-official
 ```
 
+In Claude Code, the plugin also draws file edits made through the MCP server
+(`replace_in_file`, `update_file`, etc.) as colored code diffs instead of raw JSON.
+
 ### Codex
 
 #### `codex` CLI
